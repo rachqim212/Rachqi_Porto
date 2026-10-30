@@ -46,18 +46,12 @@ with col1:
         }
         </style>
         """, unsafe_allow_html=True)
-    pages = {
-            "Profile" : [
-                 st.page_link("APLKASI/Pages/profile.py", label ="Profile", icon="👤")
-            ],
-            "My Abilities" : [
-                 st.page_link("APLKASI/Pages/skill_&_ability.py", label ="Abilities", icon="⚡")
-            ],
-            "Social Media" : [
-                 st.page_link("APLKASI/Pages/social_media.py", label ="Social Media", icon="🌐")
-            ]
-        }
     
+
+        st.page_link("APLKASI/Pages/profile.py", label ="Profile", icon="👤")
+        st.page_link("APLKASI/Pages/skill_&_ability.py", label ="Abilities", icon="⚡")
+        st.page_link("APLKASI/Pages/social_media.py", label ="Social Media", icon="🌐")
+
 
 with col2:
     st.image("fto2.jpg", width=200)
