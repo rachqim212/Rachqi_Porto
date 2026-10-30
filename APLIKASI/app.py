@@ -47,9 +47,9 @@ with col1:
         </style>
         """, unsafe_allow_html=True)
     
-    st.page_link("APLKASI/Pages/profile.py", label ="Profile", icon="👤")
-    st.page_link("APLKASI/Pages/skill_&_ability.py", label ="Abilities", icon="⚡")
-    st.page_link("APLKASI/Pages/social_media.py", label ="Social Media", icon="🌐")
+    st.page_link("pages/profile.py", label="Profile", icon="👤")
+    st.page_link("pages/skill_and_ability.py", label="Abilities", icon="⚡")
+    st.page_link("pages/social_media.py", label="Social Media", icon="🌐")
 
 
 with col2:
