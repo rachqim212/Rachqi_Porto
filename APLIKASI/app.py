@@ -25,7 +25,7 @@ def set_background(image_file):
     st.markdown(css, unsafe_allow_html=True)
 
 #BG
-set_background("bg2.jpg")
+set_background("APLIKASI/bg2.jpg")
 
 col1, col2, col3 = st.columns([6, 3, 3])
 
